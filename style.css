@@ -8,3 +8,14 @@ body {
     background-color: rgb(37, 11, 108);
     color: rgb(255, 255, 255);
 }
+
+header {
+    background-color:rgb(162, 19, 19);
+    
+    font-size: x-large;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
