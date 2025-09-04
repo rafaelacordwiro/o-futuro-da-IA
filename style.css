@@ -1,21 +1,7 @@
-* {
-    margin:0;
-    padding:0;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(16, 141, 157);
-    color: rgb(255, 255, 255);
-}
-
-header {
-    background-color:rgb(18, 62, 101);
-    
-    font-size: x-large;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+:root {
+    --cor-fundo: #01080e
+    --cor-principal: #0b0d20
+    --cor-secundaria: #212333
+    --cor-destaque: #2bdefd
+    --cor-texto: #D7F9FF
 }
