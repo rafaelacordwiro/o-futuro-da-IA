@@ -53,7 +53,7 @@ alternativas: [
 
        }
         fuction mostraAlternativas() {
-            for (const alternativas of perguntaAtual.alternativas) {
+            for(const alternativas of perguntaAtual.alternativas) {
                 const botaoAlternativas = document.createElement("button");
                 botaoAlternativas.textContent = alternativa.texto;
                 botaoAlternativas.addEventListerner("click", () => respostaSelecionada(alternativa));
