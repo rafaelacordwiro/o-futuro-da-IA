@@ -69,9 +69,9 @@ alternativas: [
         }
 
         function mostraResultado() {
-            caixaPerguntas.textContent = "Em 20049...";
+            caixaPerguntas.textContent = "Em 2049...";
             textoResultado.text = historiaFinal;
             caixaAlternativas.textContent = "";
         }
-        
+
         mostraPergunta();
