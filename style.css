@@ -14,3 +14,15 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+.caixa-principal{
+    background-color: var;(--cor-principal);
+    widht: 90%;
+    text-alight: center;
+    padding: 20px;
+}
+
+h1{
+    color: var(--cor-destaque);
+
+}
