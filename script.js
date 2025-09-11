@@ -62,9 +62,16 @@ alternativas: [
         }
 
         function respostaSelecionada(opcaoSelecionada){
-            const afirmacoes = opcaoSelecionada.afirmacoes;
+            const afirmacoes = opcaoSelecionada.afirmacao;
+            historiaFinal += afirmacoes + " ";
             atual++;
             mostraPergunta();
         }
 
+        function mostraResultado() {
+            caixaPerguntas.textContent = "Em 20049...";
+            textoResultado.text = historiaFinal;
+            caixaAlternativas.textContent = "";
+        }
+        
         mostraPergunta();
